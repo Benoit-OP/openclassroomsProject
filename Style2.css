@@ -1,0 +1,91 @@
+body 
+{
+    margin-top: 0px;
+    height: 100%
+    
+}
+ 
+.page 
+{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+ 
+.site-content 
+{
+    flex: 1;
+}
+ 
+header {
+   
+   background:rgb(255, 0, 0);
+   height:100px;
+   width: 100%;
+   list-style-type : none;
+}
+ 
+footer 
+{
+   position: static;
+   background:silver;
+   bottom:0px;
+   width:100%;
+   margin-top: 20mm;
+}
+
+
+
+
+
+
+
+
+.logo_petit
+{
+    width: 120px;
+    height: 100px;
+}
+
+h1
+{
+    color:red;
+    text-align: center;
+    font-size: 40px;
+}
+p
+{
+    font-size:24px; 
+    text-align: justify;
+}
+h2{
+    text-align: center;
+    font-size: 40px;
+    color:rgb(255, 55, 5);
+}
+ul
+{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+.flottant1
+{
+    float: left;
+}
+.dessous1
+{
+    clear: both;
+}
+.flottant2
+{
+    float: left;
+}
+.flottant3
+{
+    float: left;
+}
+.flottant4
+{
+    float: left;
+}
