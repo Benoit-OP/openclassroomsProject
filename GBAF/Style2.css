@@ -1,0 +1,242 @@
+body 
+{
+    background: linear-gradient(white, white, silver, gray);
+    font-family: 'Trebuchet MS', Arial, Helvetica, sans-serif, 'Times New Roman', Times, serif;
+    margin-top: 0px;
+    height: 100%;
+    max-width: 100%;
+   
+}
+ 
+#bloc_page 
+{
+
+    display: table;
+    flex-direction: column;
+    margin: auto;
+    width: auto;
+    
+}
+ 
+
+#presentation
+{
+    
+    margin: 50px;
+}
+
+#acteurs img
+{
+    margin-left: 30%;
+    
+}
+
+.banniere
+{
+    width: 1250px;
+    height: 300px;
+    margin-left: 350px;
+    margin-top: 50px;
+}
+
+#logo
+{
+    
+}
+
+
+
+header {
+   
+   background:rgb(255, 0, 0);
+   height:100px;
+   width: 1980px;
+    list-style-type : none;
+   display: table;
+}
+ 
+footer 
+{
+   position: static; 
+   background:black;
+   
+   width: 1980px;
+   height: 40px;
+   margin-top: 20mm;
+   
+}
+
+.logo_petit
+{
+    width: 120px;
+    height: 100px;
+}
+
+
+
+
+
+
+
+h1
+{
+    color:rgba(255, 2, 2, 0.829);
+    text-align: center;
+    font-size: 40px;
+    -webkit-text-stroke: 1px black;
+}
+
+
+li
+{
+    font-size: 15px;
+    text-align: justify;
+    margin: auto;
+    margin-left: 200px;
+    min-width: 200px;
+}
+
+p  
+{
+    font-size:20px; 
+    text-align: justify;
+    margin:auto;
+    width: 80%;
+    min-width: 400px;
+    
+}
+
+h2
+{
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    text-decoration: underline red;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+ul
+{
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+h3{
+    text-align: center;
+    font-size: 30px;
+    color:black;
+    text-decoration: underline red;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+#alignement
+{
+    display:flex;
+    margin: auto;
+    width: 80%;
+    min-width: 400px;
+    margin-top: 2%;
+    border: 1px red solid;
+    border-radius: 20px;
+    text-align: justify;
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    background-color: white;
+
+}
+
+#alignement img
+{
+    width: 300px;
+    height: 100px;
+}
+
+.mentions
+{
+    color: white;
+    text-align: center;
+}
+
+.suite
+{
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: justify;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgba(220, 0, 0, 1);
+    background-image: linear-gradient(to top left,
+                                      rgba(0, 0, 0, .2),
+                                      rgba(0, 0, 0, .2) 30%,
+                                      rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+                inset -2px -2px 3px rgba(0, 0, 0, .6);           
+}
+
+.suite:hover
+{
+    background-color: rgba(255, 0, 0, 1);
+}
+
+
+.suite:active
+{
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+                inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+form
+{
+    margin-left: 300px;
+    margin-top: 60px;
+}
+
+.centrage
+{
+
+	padding-top: 50px;
+    padding-bottom: 50px;
+    margin-left: 200px;
+    text-overflow: clip ellipsis;
+text-overflow: "…" "…";
+text-overflow: fade clip;
+text-overflow: fade(10px) fade(10px);
+text-overflow: fade(5%) fade(5%);
+}
+
+
+
+
+
+#cadre
+{
+    
+    width: 80%;
+    min-width: 400px;
+    margin-top: 2%;
+    border: 1px red solid;
+    border-radius: 20px;
+    margin: auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+}
+
+.Mon_com
+{
+    text-align: center;
+
+}
+
+textarea
+{
+    width: 60%;
+    
+}
